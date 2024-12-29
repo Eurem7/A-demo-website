@@ -1,0 +1,274 @@
+body{
+    width: 100%;
+}
+#header{
+   
+    margin-top: 0;
+    background: lightgoldenrodyellow; ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: -9999px;
+    height: 400px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 60px;
+    
+}
+.navbar li{
+    text-decoration: none;
+    text-indent: 300;
+    padding: 0 20px;
+    list-style: none;
+    
+}
+.navbar li a{
+text-decoration: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 900;
+color: black;
+transition: 0.333s;
+
+}
+.navbar li a{ }
+.him{
+    background-image: url(./images/BMW.jpg);
+  width: 100%;
+  height: 160vh;
+  margin-top: -999;
+    background-size: cover;
+    background-position: top 25px right 0 ;
+    text-align: right;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.him h1{
+    font-size: 250px;
+    font-family: fantasy;
+    color: greenyellow;
+}
+.him h2{
+    font-size: 200px;
+    font-family:cursive;
+    color: aquamarine
+}
+.him h3{
+    font-size: 180px;
+    color: aquamarine;
+}
+.him button{
+    width: 500px;
+    height: 150px;
+    margin-right: 500px;
+    font-size: 80px;
+    font-weight: 600;
+    border-radius: 200px;
+    box-shadow: 10 black ;
+    background-color: aquamarine;
+}
+.allp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 260px;
+}
+#prod1{
+    padding: 20px;
+    border: 5px solid black;
+    height: 1000px;
+    width: 800px;
+    background-color: burlywood;
+    
+}
+.p1{
+    width: 100%;
+    height: 50%;
+}
+#prod1 button{
+    width:700px;
+    height: 150px;
+font-size: 80px;
+font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+}
+#prod1 p{
+    font-weight: 500;
+    font-size: 90px;
+    text-align: center;
+    text-decoration: wavy;
+}
+#prod2{
+    padding: 20px;
+    border: 5px solid black;
+    height: 1000px;
+    width: 800px;
+    background-color: rgb(212, 134, 32);
+
+}
+.p2{
+    width: 100%;
+    height: 70%;
+}
+#prod2 button{
+    width:700px;
+    height: 150px;
+font-size: 80px;
+font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-top:-40px ;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+}
+#prod2 p{
+    font-weight: 500;
+    font-size: 90px;
+    text-align: center;
+    text-decoration: wavy;
+    margin-top: -0px;
+}
+#prod3{
+    padding: 20px;
+    border: 5px solid black;
+    height: 1000px;
+    width: 800px;
+    background-color: lightgray;
+
+}
+.p3{
+    width: 100%;
+    height: 70%;
+}
+#prod3 button{
+    width:700px;
+    height: 150px;
+font-size: 80px;
+font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-top:-40px ;
+    border-radius: 50px;
+    background-color: ghostwhite;
+
+}
+
+#prod3 p{
+    font-weight: 500;
+    font-size: 90px;
+    text-align: center;
+    text-decoration: wavy;
+    margin-top: -0px;
+}
+#prod4{
+    padding: 20px;
+    border: 5px solid black;
+    height: 1000px;
+    width: 800px;
+    background-color: lightgray;
+}
+.p4{
+    width: 100%;
+    height: 70%;
+}
+#prod4 button{
+    width:700px;
+    height: 150px;
+font-size: 80px;
+font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-top:-40px ;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+
+}
+#prod4 p{
+    font-weight: 500;
+    font-size: 90px;
+    text-align: center;
+    text-decoration: wavy;
+    margin-top: -0px;
+}
+#prod5{
+    padding: 20px;
+    border: 5px solid black;
+    height: 1000px;
+    width: 800px;
+    background-color: lightpink;
+}
+.p5{
+    width: 100%;
+    height: 70%;
+}
+#prod5 button{
+    width:700px;
+    height: 150px;
+font-size: 80px;
+font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-top:-40px ;
+    border-radius: 50px;
+    background-color: grey;
+}
+#prod5 p{
+    font-weight: 500;
+    font-size: 90px;
+    text-align: center;
+    text-decoration: wavy;
+    margin-top: -0px;
+}
+ #prod6{
+    padding: 20px;
+    border: 5px solid black;
+    height: 1000px;
+    width: 800px;
+    background-color: skyblue;
+ }
+ .p6{
+    width: 100%;
+    height: 550px;
+ }
+ #prod6 button{
+    width:700px;
+    height: 150px;
+font-size: 80px;
+font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-top:-40px ;
+    border-radius: 50px;
+    background-color: palevioletred;
+ }
+ #prod6 p{
+    font-weight: 500;
+    font-size: 90px;
+    text-align: center;
+    text-decoration: wavy;
+    margin-top: -0px;
+ }
+ footer{
+    font-size: 80px;
+    text-align: center;
+    background-color:antiquewhite;
+    margin-top: 100%;
+ }
+ p{
+    font-size: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-image: url(./images/BMW.jpg);
+    background-size: cover;
+    border-radius: 30%;
+    color: antiquewhite;
+ }
